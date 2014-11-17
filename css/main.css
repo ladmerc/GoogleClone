@@ -1,0 +1,213 @@
+/******************************
+Name: Google Homepage Clone
+Designed by: Meke Ladna
+Instructor: Andela Institute
+Optimised on: Google Chrome browser
+******************************/
+
+
+/******************************
+GENERAL
+******************************/
+body {
+	font-family: arial, sans-serif;
+	text-align: center;
+	width: 100%;
+	font-size: .8em;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+
+/******************************
+NAVIGATION
+******************************/
+
+nav ul {
+	float: right;
+}
+
+.navigation li {
+	margin-top: 19px;
+	margin-right: 10px;
+}
+	
+.navigation li a {
+	text-decoration: none;
+	color: #000;
+	margin-right: 15px;
+	margin-top: 0;
+	padding: 1px;
+	opacity: .99;
+		
+}
+
+.navigation li a:hover {
+	text-decoration: underline;
+}
+
+
+/*****STYLING THE APP IMAGE********/
+
+.navigation li:nth-child(4) a {
+	opacity: .1;
+	padding-top: 10px;
+	opacity: .5;
+}
+
+.navigation li:nth-child(4n) a:hover {
+	opacity: 1;
+}
+
+
+/*****STYLING THE 'SIGN IN' BUTTON********/
+.navigation li:last-child a {
+	color: #fff;
+	background: #4285f4;
+	padding:7px 14px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 10px;
+	border-radius: 3px;
+	opacity: 0.97;
+}
+
+.navigation li:last-child a:hover {
+	cursor: default;
+	box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.3);
+}
+
+
+/******************************
+SECTION
+******************************/
+.wrapper {
+	position: relative;
+	top:120px;
+	max-width: 100%;
+  	padding: 0 5%;
+  	clear: right;
+  	text-align: center;
+}
+
+div img {
+	max-width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+/******************************
+SEARCH BAR
+******************************/
+
+input[type="text"] {
+	margin: -10px 0 15px 0;
+}
+
+#text-field {
+    background: url(../img/mic.jpg) no-repeat 540px -1.6px;
+    border: 1px solid #d4d4d4;
+	outline: none;
+	height: 25px;
+	width: 570px;
+	opacity: .6;
+}
+
+#text-field:focus {
+	border: 1px solid #4285f4;
+	outline: none;
+}
+
+#text-field:hover {
+	opacity: 1;
+}
+
+input[type="submit"] {
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-right: 3px;
+	margin-left: 3px;
+	font-weight: bold;
+   	font-size: 0.85em;
+   	height: 28px;
+   	font-weight: 750;
+   	opacity: .8;
+}
+
+input[type="submit"]:hover {
+	color: initial;
+	opacity: 1;
+	
+}
+
+input[type="submit"]:focus {
+	border: 1px solid #4285f4;
+}
+
+/*****LANGUAGES********/
+
+.language {
+	text-decoration: none;
+	color: #000; 
+	margin-top: 37px;
+}
+
+.language a {
+	text-decoration: none;
+	margin: 0 3px 0 3px; 
+}
+
+/******************************
+FOOTER
+******************************/
+
+.footer {
+	position: fixed; 
+	clear: both; 
+	width: 100%; 
+	height: 28px; 
+	bottom: 0; 
+	padding: 13px 0 0 0; 
+  	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+
+}
+
+#left-footer {
+	float: left;
+	display: inline-block;
+}
+
+#left-footer a {
+	margin-right: 15px;
+	color: #666;
+}
+
+#right-footer {
+	float: right;
+	color: #666;
+	margin-left: 1px;
+	margin-right: 25px
+}
+
+#right-footer  a {	
+	color: #666;
+	margin-left: 1px;
+	margin-right: 25px;
+}
+
+
+
